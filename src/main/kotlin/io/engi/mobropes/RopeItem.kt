@@ -105,7 +105,7 @@ class RopeItem(settings: Settings?) : Item(settings) {
         if (user?.world?.isClient != false) return false
         if (entity == null || stack == null || stack.tag?.contains("CaughtEntity") == true || entity is PlayerEntity)
             return false
-        if (stack.damage >= stack.maxDamage - 1)
+        if (stack.maxDamage > 0 && stack.damage >= stack.maxDamage - 1)
             return false
         if (isValidTarget(entity) && saveEntityToStack(entity, stack)) {
             user.setStackInHand(hand, stack)
