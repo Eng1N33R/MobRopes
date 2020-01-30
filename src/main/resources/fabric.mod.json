@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mobropes",
+  "version": "${version}",
+
+  "name": "Mob Ropes",
+  "description": "Capture mobs with special ropes for easy transportation!",
+  "authors": [
+    "EngiN33R"
+  ],
+  "contact": {
+    "homepage": "https://engi.io/",
+    "sources": "https://github.com/Eng1N33R/MobRopes",
+    "issues": "https://github.com/Eng1N33R/MobRopes/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mobropes/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.engi.mobropes.MobRopes::init"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.7.5",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.15.x"
+  }
+}

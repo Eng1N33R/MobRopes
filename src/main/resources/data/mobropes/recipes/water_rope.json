@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "LRL",
+    " F "
+  ],
+  "key": {
+    "R": {
+      "item": "mobropes:golden_rope"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    }
+  },
+  "result": {
+    "item": "mobropes:water_rope"
+  }
+}

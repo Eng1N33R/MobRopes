@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "WDG",
+    "   "
+  ],
+  "key": {
+    "W": {
+      "item": "mobropes:water_rope"
+    },
+    "G": {
+      "item": "mobropes:golden_rope"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "mobropes:diamond_rope"
+  }
+}
