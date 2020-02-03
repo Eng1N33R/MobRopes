@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "io.engi.mobropes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinPlayerEntity"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

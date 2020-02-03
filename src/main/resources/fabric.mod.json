@@ -23,7 +23,9 @@
       "io.engi.mobropes.MobRopes::init"
     ]
   },
-  "mixins": [],
+  "mixins": [
+    "mobropes.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
